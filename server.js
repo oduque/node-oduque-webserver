@@ -26,7 +26,7 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
 
     res.render('about', {
-        nombre: 'Oscar',
+        nombre: 'OSCAR DUQUE',
         anio: new Date().getFullYear()
     });
 
